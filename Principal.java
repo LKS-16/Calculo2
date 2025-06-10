@@ -13,7 +13,7 @@ public class Principal {
             janela.setSize(1200, 650);
             janela.setLayout(new BorderLayout());
 
-            // === Painel de Entrada de Dados ===
+            //Painel de Entrada de Dados 
             JPanel painelEntrada = new JPanel();
 
             // Campos de texto para inserir as funções f(x) e g(x)
@@ -46,7 +46,7 @@ public class Principal {
             painelEntrada.add(campoB);
             painelEntrada.add(botaoAtualizar);
 
-            // === Painel onde o gráfico será exibido ===
+            // Painel onde o gráfico será exibido 
             JPanel painelGraficoHolder = new JPanel(new BorderLayout());
 
             // Cria funções iniciais padrão
@@ -61,7 +61,7 @@ public class Principal {
             PainelGrafico painelGrafico = new PainelGrafico(f1, f2, false, -5, 5, 200, a, b);
             painelGraficoHolder.add(painelGrafico, BorderLayout.CENTER);
 
-            // === Painel de Legenda com funções disponíveis ===
+            // Painel de Legenda com funções disponíveis
             JPanel painelLegenda = new JPanel();
             painelLegenda.setLayout(new BoxLayout(painelLegenda, BoxLayout.Y_AXIS));
             painelLegenda.setBorder(BorderFactory.createTitledBorder("Funções disponíveis"));
