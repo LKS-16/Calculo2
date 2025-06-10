@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class PainelGrafico extends JPanel {
     private final Funcao f1, f2;       // As duas funções que podem ser desenhadas
-    private final boolean duasFuncoes; // Define se vamos desenhar uma ou duas funções
+    private final boolean duasFuncoes; // Define se vai desenhar uma ou duas funções
     private final double xMin, xMax;   // Limites do eixo X no gráfico
     private final double a, b;         // Limites de integração (onde sombrear)
     private final int passos;          // Número de divisões para precisão do gráfico
