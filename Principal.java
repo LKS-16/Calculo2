@@ -17,8 +17,8 @@ public class Principal {
             JPanel painelEntrada = new JPanel();
 
             // Campos de texto para inserir as funções f(x) e g(x)
-            JTextField campoFuncao1 = new TextField("sin(x)", 15);  // f(x) erro simulado
-            JTextField campoFuncao2 = new JTextField("cos(x)", 15);  // g(x)
+            JTextField campoFuncao1 = new JTextField("sin(x)", 15);  // f(x)
+            JTextField campoFuncao2 = new TextField("cos(x)", 15);  // g(x) erro simulado
             campoFuncao2.setEnabled(false);  // Começa desativado
 
             // Campos para os limites de integração
